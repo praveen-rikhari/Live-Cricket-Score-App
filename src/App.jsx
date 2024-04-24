@@ -17,6 +17,7 @@ function App() {
         <Route path="/matches" component={Matches} />
         <Route path="/players" component={Players} />
       </Routes>
+      <LiveScore />
     </div>
 
   );
